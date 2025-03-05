@@ -1,0 +1,53 @@
+﻿﻿# Ignore build directories
+/build/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+CMakeScripts/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Ignore C++ object files
+*.o
+*.a
+*.so
+*.lo
+*.la
+*.dylib
+*.dll
+*.exe
+
+# Ignore debug and release binaries
+*/Debug/
+*/Release/
+*.out
+
+# Ignore test results (if using ctest)
+Testing/
+
+# Ignore generated libraries or binaries
+*.lib
+*.pdb
+*.stackdump
+*.dSYM/
+
+# Ignore vcpkg directories
+/vcpkg/
+.vcpkg/
+
+# Ignore Google Test build directories
+googletest/
+
+# Ignore OS-specific files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore venv or python virtual environments (if using Python alongside)
+*.venv/
+venv/
